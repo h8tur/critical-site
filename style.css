@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-bar {
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+}
+
+.navigation-bar ul li {
+    display: inline-block;
+    margin-left: 10px; /* Adjust as needed */
+}
+
+.navigation-bar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
